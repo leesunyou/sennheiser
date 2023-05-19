@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+#wrap,
+body,
+html {
+  overflow-x: hidden;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#visual {
+  margin-top: 60px;
+  width: 100%;
+  height: 117px;
+}
+
+.visual {
+  width: 100%;
+  height: 117px;
+  background: url(../img/sub2_visual.jpg) no-repeat center/cover;
+}
+
+.visual>p {
+  color: #fff;
+  font-size: 2em;
+  top: 0px;
+  text-align: center;
+}
+
+
+.visual .underline {
+  margin: 0 auto;
+}
+
+.underline {
+  width: 300px;
+  height: 1px;
+  background: #fff;
+  margin-top: -8px;
+}
+
+#visual .category {
+  margin-top: 10px;
+}
+
+.category {
+  width: 190px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.headphone,
+.earbuds,
+.accessory {
+  background: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 12.5px;
+  display: inline-block;
+  transition: .2s;
+}
+
+.headphone:hover,
+.earbuds:hover,
+.accessory:hover {
+  background: #e1e1e1;
+}
+
+.headphone,
+.earbuds {
+  margin-right: 25px;
+}
+
+.category img {
+  width: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.category p {
+  display: none;
+}
+
+#products {
+  background: #edf1f5;
+  height: 4852px;
+}
+
+.products_cont {
+  position: relative;
+  top: 50px;
+}
+
+.products_title1,
+.products_title2,
+.products_title3 {
+  text-align: center;
+}
+
+.products_title1 span,
+.products_title2 span,
+.products_title3 span {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.under_line {
+  width: 160px;
+  height: 2px;
+  background: #000;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+#products .conts {
+  margin-top: 30px;
+  background-color: palegoldenrod;
+}
+
+.conts {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.conts img {
+  transition: 0.3s;
+}
+
+.conts img:hover {
+  transform: scale(1.1);
+}
+
+.cont1,
+.cont2,
+.cont3 {
+  margin-left: 25px;
+}
+
+.h-1,
+.h-2,
+.h-3,
+.h-4,
+.h-5,
+.h-6,
+.h-7,
+.h-8,
+.h-9,
+.h-10,
+.h-11,
+.h-12,
+.e-1,
+.e-2,
+.e-3,
+.e-4,
+.e-5,
+.e-6,
+.e-7,
+.e-8,
+.e-9,
+.e-10,
+.e-11,
+.e-12,
+.a-1,
+.a-2,
+.a-3,
+.a-4,
+.a-5,
+.a-6,
+.a-7,
+.a-8,
+.a-9,
+.a-10,
+.a-11,
+.a-12 {
+  display: inline-block;
+  width: 157.5px;
+  margin-right: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px -5px #333;
+}
+
+.conts>div>div {
+  margin-bottom: 30px;
+}
+
+.cont1 img,
+.cont2 img,
+.cont3 img {
+  width: 100%;
+}
+
+.textbox {
+  height: 60px;
+  background: #fff;
+}
+
+.textbox span {
+  display: block;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.textbox span:nth-child(1) {
+  position: relative;
+  top: 11px;
+  margin-bottom: 17px;
+}
+
+.line {
+  background: #000;
+  width: 345px;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
